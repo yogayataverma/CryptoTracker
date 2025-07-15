@@ -19,6 +19,7 @@ cd vr_automations ## take client folder clone from frontend branch and server fo
 ### 2. **Backend Setup**
 ```bash
 cd server
+## copy backend branch code
 npm install
 npm start
 ```
@@ -30,6 +31,7 @@ npm start
 ### 3. **Frontend Setup**
 ```bash
 cd client/vr-automations
+## copy frontend branch code
 npm install
 npm start
 ```
