@@ -13,7 +13,7 @@ const CoinChart = ({ coinId }) => {
       setLoading(true);
       setError(null);
       try {
-        const res = await axios.get(`/api/history/${coinId}`);
+        const res = await axios.get(`https://cryptotracker-976z.onrender.com/api/history/${coinId}`);
         setData(res.data.map(item => ({
           ...item,
           time: item.lastUpdated,

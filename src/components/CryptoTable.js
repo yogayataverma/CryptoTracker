@@ -44,7 +44,7 @@ const CryptoTable = () => {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.get("/api/coins");
+      const res = await axios.get("https://cryptotracker-976z.onrender.com/api/coins");
       setCoins(res.data);
     } catch (err) {
       setError("Failed to fetch coins");
