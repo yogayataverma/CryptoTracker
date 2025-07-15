@@ -26,6 +26,7 @@ npm install
   MONGO_DB=mongodb link
   ```
 - Start the backend:
+-   ```bash
   npm start
   ```
 
@@ -35,6 +36,7 @@ cd client/vr-automations
 npm install
 ```
 - Start the frontend:
+-   ```bash
   npm start
   ```
 
