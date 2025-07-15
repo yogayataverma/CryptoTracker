@@ -20,26 +20,19 @@ cd vr_automations ## take client folder clone from frontend branch and server fo
 ```bash
 cd server
 npm install
+npm start
 ```
 - Create a `.env` file in the `server` folder or copy from `.env.example`:
   ```
   MONGO_DB=mongodb link
-  ```
-- Start the backend:
--   ```bash
-  npm start
   ```
 
 ### 3. **Frontend Setup**
 ```bash
 cd client/vr-automations
 npm install
+npm start
 ```
-- Start the frontend:
--   ```bash
-  npm start
-  ```
-
 ---
 
 ## How the Cron Job Works
